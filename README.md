@@ -1,7 +1,7 @@
 It is recommended that you use a virtualenv with Flask installed (instructions
 [here](http://flask.pocoo.org/docs/1.0/installation/)); once that is set up and your virtualenv is active you can do
 the following:
-###Run / Develop locally without Docker
+### Run / Develop locally without Docker
 Get set up to run a test server that will reload upon detection of source changes with:  
 ```bash
 export FLASK_APP=flaskr
@@ -11,7 +11,7 @@ and then finally run the test server with:
 ```bash
 flask run
 ```
-###Build / Run locally with Docker
+### Build / Run locally with Docker
 ```bash
 # Build the app distributable
 python setup.py bdist_wheel
