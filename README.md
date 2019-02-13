@@ -1,9 +1,11 @@
-## This is a Dockerized Flask application template.
+## This is a Dockerized Python 3 Flask application template.
 
 It is recommended that you use a virtualenv with Flask installed (instructions
 [here](http://flask.pocoo.org/docs/1.0/installation/)); once that is set up and your virtualenv is active you can do
 the following:
+
 ### Run / Develop locally without Docker
+
 Get set up to run a test server that will reload upon detection of source changes with:  
 ```bash
 export FLASK_APP=flaskr
@@ -13,7 +15,9 @@ and then finally run the test server with:
 ```bash
 flask run
 ```
+
 ### Build / Run locally with Docker
+
 The following will spin up the app locally using Docker + [Waitress](https://pypi.org/project/waitress/)
 ```bash
 # Build the app distributable
