@@ -14,6 +14,7 @@ and then finally run the test server with:
 flask run
 ```
 ### Build / Run locally with Docker
+The following will spin up the app locally using Docker + [Waitress](https://pypi.org/project/waitress/)
 ```bash
 # Build the app distributable
 python setup.py bdist_wheel
