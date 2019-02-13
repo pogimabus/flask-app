@@ -1,4 +1,4 @@
-This is a Dockerized Flask application template.
+## This is a Dockerized Flask application template.
 
 It is recommended that you use a virtualenv with Flask installed (instructions
 [here](http://flask.pocoo.org/docs/1.0/installation/)); once that is set up and your virtualenv is active you can do
